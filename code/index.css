@@ -26,7 +26,7 @@ h5 {
   width: 156px;
   height: 50px;
   background-color: #4daf7c;
-  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   background-image: linear-gradient(rgba(255, 255, 255, 0.15), #4daf7c);
   border-radius: 5px;
   border: none;
@@ -68,12 +68,6 @@ h5 {
   font-weight: bold;
 }
 
-.page {
-}
-
-.footer {
-}
-
 .logo {
   margin-top: 47px;
   margin-bottom: 48.5px;
@@ -91,6 +85,104 @@ h5 {
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
+}
+
+.card {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  width: 340px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.card-logo {
+  background-image: linear-gradient(#2c2c2c, #2e3032);
+  height: 193px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-text {
+  height: 193px;
+}
+
+.card-header {
+  font-size: 22px;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 32px;
+  margin-left: 24px;
+}
+
+.card-content {
+  font-size: 18px;
+  color: #555555;
+  text-align: left;
+  margin-top: 17px;
+  margin-left: 24px;
+  width: 271px;
+}
+
+.cta-border {
+  border-right: 2px solid #555555;
+}
+
+.page {
+  margin-top: 109px;
+}
+
+.row-break {
+  margin-bottom: 73px;
+}
+
+.footer-image {
+  margin-top: 113px;
+  height: 148px;
+}
+
+.cta-content {
+  font-size: 26px;
+  color: #7c7c7c;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-content-1 {
+  width: 306px;
+}
+
+.cta-content-2 {
+  width: 289px;
+}
+
+mark.green {
+  color: #339366;
+  background: none;
+}
+.footer {
+  background-color: #202020;
+}
+
+.footer-logo {
+  width: 70px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 18px;
+}
+
+.footer-row {
+  height: 59px;
+  display: flex;
+  align-items: center;
+}
+
+.rights-content {
+  color: #646464;
+  font-size: 11px;
+  line-height: 20px;
 }
 
 /*******************************
