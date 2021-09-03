@@ -2,8 +2,9 @@
             Global
 *******************************/
 
-html, body {
-  font-family: "Lato", Arial, sans-serif;
+html,
+body {
+  font-family: 'Lato', Arial, sans-serif;
   margin: 0px;
   padding: 0px;
 }
@@ -17,32 +18,80 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Merriweather", Times New Roman, serif;
+  font-family: 'Merriweather', Times New Roman, serif;
+  margin: 0;
 }
-
 
 .button {
-
+  width: 156px;
+  height: 50px;
+  background-color: #4daf7c;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  background-image: linear-gradient(rgba(255, 255, 255, 0.15), #4daf7c);
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  margin-bottom: 112px;
 }
-
-
 
 /*******************************
               Page
 *******************************/
 
 .hero {
+  background-color: #dff1e8;
+}
 
+.hero-image {
+  margin-top: 124px;
+  width: 578px;
+  height: 364px;
+}
+
+.hero-header {
+  line-height: 47px;
+  font-size: 36px;
+  font-weight: 300;
+  width: 319px;
+}
+
+.hero-content {
+  margin: 32.5px 0;
+  width: 406px;
+  line-height: 32px;
+  font-size: 19px;
+  color: #555555;
+}
+
+.button-content {
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .page {
-
 }
 
 .footer {
-
 }
 
+.logo {
+  margin-top: 47px;
+  margin-bottom: 48.5px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
 
 /*******************************
          Responsive
@@ -50,14 +99,10 @@ h5 {
 
 /* Small Monitor */
 @media only screen and (min-width: 1025px) and (max-width: 1199px) {
-
-
 }
-
 
 /* Tablet */
 @media screen and (max-width: 1024px) {
-
 }
 
 /* Mobile */

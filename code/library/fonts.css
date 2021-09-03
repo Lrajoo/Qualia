@@ -1,4 +1,3 @@
-
 /*******************************
         Font Declarations
 *******************************/
@@ -11,19 +10,15 @@
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 400;
-  src:
-    url(../fonts/merriweather/Merriweather-Regular.woff2) format('woff2'),
-    url(../fonts/merriweather/Merriweather-Regular.woff) format('woff')
-  ;
+  src: url(../fonts/merriweather/Merriweather-Regular.woff2) format('woff2'),
+    url(../fonts/merriweather/Merriweather-Regular.woff) format('woff');
 }
 @font-face {
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 700;
-  src:
-    url(../fonts/merriweather/Merriweather-Bold.woff2) format('woff2'),
-    url(../fonts/merriweather/Merriweather-Bold.woff) format('woff')
-  ;
+  src: url(../fonts/merriweather/Merriweather-Bold.woff2) format('woff2'),
+    url(../fonts/merriweather/Merriweather-Bold.woff) format('woff');
 }
 
 /*--------------
@@ -33,19 +28,13 @@
 /* Regular */
 @font-face {
   font-family: 'Lato';
-  src:
-    url(../fonts/lato/Lato-Regular.woff2) format('woff2'),
-    url(../fonts/lato/Lato-Regular.woff) format('woff')
-  ;
+  src: url(../fonts/lato/Lato-Regular.woff2) format('woff2'), url(../fonts/lato/Lato-Regular.woff) format('woff');
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: 'Lato';
-  src:
-    url(../fonts/lato/Lato-Italic.woff2) format('woff2'),
-    url(../fonts/lato/Lato-Italic.woff) format('woff')
-  ;
+  src: url(../fonts/lato/Lato-Italic.woff2) format('woff2'), url(../fonts/lato/Lato-Italic.woff) format('woff');
   font-style: italic;
   font-weight: normal;
 }
@@ -53,10 +42,7 @@
 /* Medium */
 @font-face {
   font-family: 'Lato';
-  src:
-    url(../fonts/lato/Lato-Medium.woff2) format('woff2'),
-    url(../fonts/lato/Lato-Medium.woff) format('woff')
-  ;
+  src: url(../fonts/lato/Lato-Medium.woff2) format('woff2'), url(../fonts/lato/Lato-Medium.woff) format('woff');
   font-style: normal;
   font-weight: 500;
 }
@@ -64,10 +50,7 @@
 /* Bold */
 @font-face {
   font-family: 'Lato';
-  src:
-    url(../fonts/lato/Lato-Bold.woff2) format('woff2'),
-    url(../fonts/lato/Lato-Bold.woff) format('woff')
-  ;
+  src: url(../fonts/lato/Lato-Bold.woff2) format('woff2'), url(../fonts/lato/Lato-Bold.woff) format('woff');
   font-style: normal;
   font-weight: 700;
 }
